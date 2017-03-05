@@ -4,10 +4,10 @@ int cur_i=0;
 int b=4;
 int cur_j=4;
 int i=0,j=0;
-int array[16][8]={0};//empty array
+int array[16][8]={0};//empty array OKAY , hi naman jain
 
 
-int shape1[4][3]={{1,1,0}, {0,1,0},{0,1,1}};//z
+int shape1[3][3]={{1,1,0}, {0,1,0},{0,1,1}};//z
 int shape2[3][3]={{1,1,1}, {1,1,1},{1,1,1}};//square
 int shape3[3][3]={{1,1,1}, {0,1,0},{0,1,0}};//T
 int shape4[3][3]={{0,0,0}, {0,0,0},{1,1,1}};//HORIZONTAL BAR
